@@ -1,4 +1,4 @@
-FROM php:7.1-zts-alpine
+FROM php:7.1-zts
 
 RUN apt-get update && apt-get install -y \
 		libfreetype6-dev \
